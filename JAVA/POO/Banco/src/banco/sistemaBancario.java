@@ -1,28 +1,29 @@
 package banco;
 import java.util.Scanner;
+import conta.*;
 
 public class sistemaBancario {
 	public static void main(String [] args) {
-		double saldo = 0, valor = 0;
-		int op = 1;
+		contaBancaria c1 = new contaBancaria();
+		int op = 1, r;
+		double valor;
 		Scanner scan = new Scanner(System.in);
 		do {
-			System.out.println("(1) - Consultar Saldo\n(2) - Saque\n(3) - Depósito\n(4) - Sair");
+			System.out.println("(1) - Consultar Saldo\n(2) - Debitar\n(3) - Creditar\n(4) - Sair");
 			System.out.println("Escolha uma opção: ");
 			op = scan.nextInt();
 			switch(op) {
 				case 1:
-					System.out.println(saldo + " R$");
+					System.out.println(c1.consultarSaldo() + " R$");
 					break;
 				case 2:
 					System.out.println("Digite o valor a ser sacado: ");
 					valor = scan.nextDouble();
-					if(valor <= saldo && valor > 0) {
+					r = c1.debitar(valor);
+					if(r == 1) {
 						System.out.println("Saque no valor de " + valor + " R$ realizado com sucesso!");
-						saldo -= valor;
-					
 					}else {
-						if(valor > 0)
+						if(r == 0)
 							System.out.println("Saque não efetuado, saldo insuficiente!");
 						else
 							System.out.println("Valor do saque não pode ser negativo!");
@@ -31,8 +32,12 @@ public class sistemaBancario {
 				case 3:
 					System.out.println("Digite o valor a ser depositado: ");
 					valor = scan.nextDouble();
-					saldo += valor;
-					System.out.println("Depósito realizado com sucesso!");
+					r = c1.creditar(valor);
+					if(r == 1) {
+						System.out.println("Depósito realizado com sucesso!");	
+					}else {
+						System.out.println("Valor insuficiente para realizar um depósito!!");
+					}
 					break;
 				case 4:
 					System.out.println("Até breve!");
