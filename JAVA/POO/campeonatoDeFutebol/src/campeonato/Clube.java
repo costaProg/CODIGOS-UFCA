@@ -4,11 +4,7 @@ public class Clube {
 	String nome;
 	int pontos;
 	int saldoGols;
-	
-	public Clube() {
-		
-	}
-		
+			
 	public Clube(String n){
 		this.nome = n;
 		this.pontos = 0;

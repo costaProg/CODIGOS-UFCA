@@ -3,7 +3,6 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Campeonato {
-	String r;
 	Clube campeao[] = new Clube[1];
 	ArrayList<Clube> clubes = new ArrayList<Clube>();
 	
