@@ -22,11 +22,12 @@ public class Teste {
 			System.out.println("--------------------------\n");
 			System.out.println("Escolha uma opção: "); 	
 			op = scan.nextInt();
+			scan.nextLine();
 			switch(op) {
 				case 1:
 					for(int i = 0; i < n; i++) {
 						System.out.println("\nInforme o nome da equipe "+(i+1)+": ");
-						nomeTime = scan.next();
+						nomeTime = scan.nextLine();
 						times[i] = new Clube(nomeTime);
 						equipes.add(times[i]);
 					}

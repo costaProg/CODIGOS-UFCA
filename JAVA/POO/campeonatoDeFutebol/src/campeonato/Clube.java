@@ -25,7 +25,7 @@ public class Clube {
 	}
 	
 
-@Override
+//@Override
 	public String toString() {
 		return "|Time: " + this.nome + "|Saldo de gols: " + this.saldoGols + "|Pontos: "+this.pontos+"|";
 	}
