@@ -24,8 +24,6 @@ public class Clube {
 		this.saldoGols += (golsF - golsS);
 	}
 	
-
-//@Override
 	public String toString() {
 		return "|Time: " + this.nome + "|Saldo de gols: " + this.saldoGols + "|Pontos: "+this.pontos+"|";
 	}
