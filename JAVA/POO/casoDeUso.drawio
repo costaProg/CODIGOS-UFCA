@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T14:53:57.227Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="-AJIH-PQFdAVg97EEXXE" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-13T15:00:20.363Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="BjjwQAyCj5-0O7yuFLMw" version="21.2.9" type="github">
   <diagram name="Página-1" id="CE0wCYGftJY5i8jobXnX">
     <mxGraphModel dx="1434" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5-VP5YGX4s93a5erIt3x-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="70" width="510" height="750" as="geometry" />
+          <mxGeometry x="240" y="70" width="500" height="750" as="geometry" />
         </mxCell>
         <mxCell id="5-VP5YGX4s93a5erIt3x-2" value="Gerente&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="305" width="60" height="110" as="geometry" />
