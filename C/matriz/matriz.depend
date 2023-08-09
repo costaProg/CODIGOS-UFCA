@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1690552209 source:/home/lucas/Documentos/UFCA/AED 1/Aulas/matriz/main.c
+	<stdio.h>
+	<stdlib.h>
+	"matriz.h"
+
+1690635972 /home/lucas/Documentos/UFCA/AED 1/Aulas/matriz/matriz.h
+
+1690636342 source:/home/lucas/Documentos/UFCA/AED 1/Aulas/matriz/matriz.c
+	<stdlib.h>
+	<stdio.h>
+	"matriz.h"
+
